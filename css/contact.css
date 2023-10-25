@@ -1,0 +1,94 @@
+body{
+   text-align: left;
+}
+.contact-page-middle-part{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+}
+.contact-form-wrapper{
+    display: flex;
+    width: 1215px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputs-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 696px;
+}
+input{
+    margin-bottom: 5px;
+}
+.name,.phone-number,.email{
+    padding: 0px 7px;
+    width: 343px;
+    height: 55px;
+    outline: 0;
+}
+.email{
+    width: 690px ;
+}
+textarea{
+    height: 180px;
+    width: 690px;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+}
+.submit-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 30, 83);
+    padding: 17px 30px;
+    font-size: 16px;
+    line-height: 18.96px;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+    margin-right: 5px;
+    outline: 0;
+    margin-left: auto;
+}
+.submit-button:active{
+    background-color: rgb(73, 73, 112);
+    color: rgb(255, 255, 255);
+    padding:17px 25px;
+    font-weight: bold;
+
+}
+
+
+.address-container{
+    width: 494px;
+    height: auto;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+}
+.address-list{
+    display: flex;
+    flex-direction: column;
+
+}
+.address-list:not(:last-child){
+    padding-bottom: 7px;
+    border-bottom: 2px solid grey;
+}
+h3{
+    font-family: "rubik";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23.7px;
+    margin-bottom: 2px;
+    color: black;
+}
+span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: black;
+}

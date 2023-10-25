@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellcome to <b> Contact page</b></title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/modalStyles.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header-top">
+            <div class="site-header-top-container container">
+                <a href="#" class="site-header-logo">
+                    <img class="site-header-logo-img" src="/img/logo-purple.svg" height="28" alt="logo img" width="264">
+                </a>
+                <!-- currency-rates -->
+                <ul class="currency-rates">
+                    <li class="currency-item">
+                        <b class="currency-item-type">$</b>
+                        <span>115.75</span>
+                    </li>
+                    <li class="currency-item">
+                        <b class="currency-item-type">P</b>
+                        <span>145.50</span>
+                    </li>
+                </ul>
+                <!-- global-search-form -->
+                <div class="search-bar">
+                    <form action="https://echo.htmlacademy.ru" method="get">
+                        <input class="global-search-form-input" type="search" name="search" placeholder="поиск"
+                            aria-label="поиск" required>
+                    </form>
+                </div>
+                <!-- language-toggle  -->
+                <div class="language-toggle">
+                    <a class="language-toggle-link language-toggle-link-one" href="index.html">УЗ</a>
+                    <a class="language-toggle-link" href="index.html">РУ</a>
+                </div>
+                <!-- site-header-auth -->
+                <a class="button button-primary" href="./index.html">Войти</a>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="site-nav">
+                <ul class="sitenav-list">
+                    <li class="sitenav-list-item"><a class="sitenav-link" href="#">Главное</a></li>
+                    <li class="sitenav-list-item"><a class="sitenav-link" href="#">Интересное</a></li>
+                    <li class="sitenav-list-item"><a class="sitenav-link" href="#">Экономика</a></li>
+                    <li class="sitenav-list-item"><a class="sitenav-link" href="#">Политика</a></li>
+                    <li class="sitenav-list-item"><a class="sitenav-link" href="#">Общество</a></li>
+                    <li class="sitenav-list-item"><a class="sitenav-link" href="#">Технологии</a></li>
+                    <li class="sitenav-list-item"><a class="sitenav-link" href="#">Спорт</a></li>
+                    <li class="sitenav-list-item"><a class="sitenav-link" href="#">Культура</a></li>
+                    <li class="sitenav-list-item"><a class="sitenav-link" href="#">Происшествия</a></li>
+                    <li class="sitenav-list-item"><a class="sitenav-link" href="#">Наука</a></li>
+
+                </ul>
+
+            </nav>
+        
+        </div>
+    </header>
+
+
+
+    <main class="contact-form-wrapper">
+        <h1>Напишите нам</h1>
+        <section class="contact-page-middle-part">
+            <div class="inputs-wrapper">
+                <div class="name-vs-number">
+                    <input type="text" placeholder="name" id="name" class="name">
+                    <input type="tel" placeholder="phone number" id="phone-number" class="phone-number">
+                </div>
+                <input type="text" placeholder="email" class="email">
+                <textarea name="textarea" placeholder="text" id="textarea" ></textarea>
+                <button type="submit" class="submit-button">Отправить</button>
+            </div>
+
+            <ul class="address-container">
+                <li class="address-list email-address">
+                    <h3>Электронная почта  </h3> <span>info@namanganliklar24.uz</span>
+                </li>
+                <li class="address-list address-number">
+                    <h3>Номер телефона</h3> <span>+998 88 522-54-76</span>
+                </li>
+                <li class="address-list location"> <h3>Адрес</h3> <span>Ташкент, площадь Мустакиллик, 6 </span></li>
+            </ul>
+        </section>
+    </main>
+
+
+
+
+     <!-- site footer  -->
+     <footer class="site-footer">
+        <div class="footer-wrapper">
+            <div class=" footer-container container">
+                <a href="#" class="site-footer-logo">
+                    <img class=" site-footer-logo-img " src="/img/footer-img/logo.svg" height="28" alt="logo img"
+                        width="264">
+                </a>
+                <div class="footer-parts-wrapper">
+                    <div class="footer-parts">
+
+                        <p class="footer-text">Воспроизводство, копирование, использование информации с сайта
+                            «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+                        </p>
+                    </div>
+                    <!-- div 2 -->
+                    <div class="footer-parts">
+                        <ul class="footer-ul">
+                            <li class="footer-ul-item">Информация о сайте</li>
+                            <li class="footer-ul-item">Напишите нам</li>
+                            <li class="footer-ul-item">Реклама</li>
+                            <li class="footer-ul-item">Прислать новость</li>
+                        </ul>
+                    </div>
+                    <div class="footer-parts">
+                        <ul>
+                            <li class="footer-ul-item">Использование материалов</li>
+                            <li class="footer-ul-item">Темы дня</li>
+                            <li class="footer-ul-item">Наша команда</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-container" id="modal-selector">
+            <div class="modal" >
+                <button class="modal-close-button" id="button-closer">x</button>
+                <p class="modal-context">Хотите быть в курсе свежих новостей?  Включите уведомления!
+                </p>
+                <button class="modal-approve-button">Включит </button>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
